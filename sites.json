@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Gathering Games",
+    "type": "shopify_json",
+    "url": "https://gatheringgames.co.uk/collections/pokemon",
+    "base_url": "https://gatheringgames.co.uk"
+  },
+  {
+    "name": "The Card Vault",
+    "type": "shopify_json",
+    "url": "https://thecardvault.co.uk/en-us/collections/pokemon-tcg-sealed-products",
+    "base_url": "https://thecardvault.co.uk/en-us"
+  },
+  {
+    "name": "Pokemon Center UK - New Releases",
+    "type": "html",
+    "url": "https://www.pokemoncenter.com/en-gb/category/new-releases",
+    "base_url": "https://www.pokemoncenter.com",
+    "keyword": "pokemon"
+  }
+]
