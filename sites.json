@@ -17,5 +17,129 @@
     "url": "https://www.pokemoncenter.com/en-gb/category/new-releases",
     "base_url": "https://www.pokemoncenter.com",
     "keyword": "pokemon"
+  },
+  {
+    "name": "Chaos Cards",
+    "type": "html",
+    "url": "https://www.chaoscards.co.uk/shop/card-games/pokemon",
+    "base_url": "https://www.chaoscards.co.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "Element Games",
+    "type": "html",
+    "url": "https://elementgames.co.uk/card-games/pokemon-tgc",
+    "base_url": "https://elementgames.co.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "TCGShopUK",
+    "type": "html",
+    "url": "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/",
+    "base_url": "https://tcgshopuk.co.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "PlayTCG",
+    "type": "html",
+    "url": "https://playtcg.uk/collections/pokemon",
+    "base_url": "https://playtcg.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "Magic Madhouse",
+    "type": "html",
+    "url": "https://magicmadhouse.co.uk/pokemon",
+    "base_url": "https://magicmadhouse.co.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "Total Cards",
+    "type": "shopify_json",
+    "url": "https://totalcards.net/collections/pokemon",
+    "base_url": "https://totalcards.net"
+  },
+  {
+    "name": "Titan Cards",
+    "type": "shopify_json",
+    "url": "https://titancards.co.uk/collections/pokemon",
+    "base_url": "https://titancards.co.uk"
+  },
+  {
+    "name": "Big Orbit Cards",
+    "type": "html",
+    "url": "https://www.bigorbitcards.co.uk/collections/pokemon",
+    "base_url": "https://www.bigorbitcards.co.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "PACKRAT",
+    "type": "html",
+    "url": "https://packratt.co.uk/collections/pokemon",
+    "base_url": "https://packratt.co.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "Wayland Games",
+    "type": "html",
+    "url": "https://www.waylandgames.co.uk/tabletop-games/collectable-card-games/pokemon-tcg",
+    "base_url": "https://www.waylandgames.co.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "Firestorm Games",
+    "type": "html",
+    "url": "https://www.firestormgames.co.uk/card-games/pokemon-tcg-cards",
+    "base_url": "https://www.firestormgames.co.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "TCG and Games",
+    "type": "html",
+    "url": "https://tcgandgames.com/collections/pokemon",
+    "base_url": "https://tcgandgames.com",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "Travelling Man",
+    "type": "html",
+    "url": "https://travellingman.com/collections/pokemon-tcg",
+    "base_url": "https://travellingman.com",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "Dark Sphere",
+    "type": "html",
+    "url": "https://www.darksphere.co.uk/c.php?c=1080",
+    "base_url": "https://www.darksphere.co.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "JET Cards",
+    "type": "html",
+    "url": "https://jetcards.uk/collections/pokemon",
+    "base_url": "https://jetcards.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "Spellbound Games",
+    "type": "html",
+    "url": "https://spellboundgames.co.uk/collections/pokemon",
+    "base_url": "https://spellboundgames.co.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "Patriot Games Leeds",
+    "type": "html",
+    "url": "https://patriotgamesleeds.com/index.php?cPath=222_22&main_page=index",
+    "base_url": "https://patriotgamesleeds.com",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "TGC Collectables",
+    "type": "html",
+    "url": "https://collect.thegamecollection.net/collections/pokemon",
+    "base_url": "https://collect.thegamecollection.net",
+    "keyword": "pokemon"
   }
 ]
