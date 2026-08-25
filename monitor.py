@@ -13,6 +13,7 @@ so your own computer never needs to be on.
 
 import json
 import os
+import re
 import requests
 from bs4 import BeautifulSoup
 
@@ -28,6 +29,52 @@ HEADERS = {
         "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"
     )
 }
+
+# Rough typical UK RRPs by product type, used only as a sanity ceiling
+# (checked against a generous multiplier below) to filter out obviously
+# marked-up / scalper-priced listings. Not exact - just meant to catch
+# things priced way outside the normal range. Update these as RRPs change.
+PRICE_CEILINGS = [
+    # (keyword to match in title, typical RRP, allowed multiplier)
+    ("booster box", 150, 1.3),
+    ("elite trainer box", 55, 1.3),
+    ("etb", 55, 1.3),
+    ("premium collection", 60, 1.4),
+    ("ultra-premium collection", 120, 1.4),
+    ("ultra premium collection", 120, 1.4),
+    ("booster bundle", 30, 1.3),
+    ("build & battle", 30, 1.3),
+    ("build and battle", 30, 1.3),
+    ("battle deck", 20, 1.4),
+    ("tin", 25, 1.5),
+    ("booster pack", 6, 1.6),
+    ("blister", 15, 1.5),
+    ("collection box", 50, 1.4),
+]
+
+
+def price_looks_reasonable(title, price):
+    """
+    Returns True if we should notify about this price, False if it looks
+    like a markup we should skip. If we can't tell (no price data, or no
+    matching product type), we default to True rather than silently
+    hiding things.
+    """
+    if price is None:
+        return True
+    title_lower = title.lower()
+    for keyword, rrp, multiplier in PRICE_CEILINGS:
+        if keyword in title_lower:
+            return price <= rrp * multiplier
+    return True  # unknown product type - don't filter blind
+
+
+def extract_price(text):
+    """Pulls a plain £ price out of a text blob, if present."""
+    match = re.search(r"£\s?(\d+(?:\.\d{1,2})?)", text)
+    if match:
+        return float(match.group(1))
+    return None
 
 
 def load_json(path, default):
@@ -83,9 +130,12 @@ def check_shopify_json(site):
         title = p["title"]
         handle = p["handle"]
         link = f"{site['base_url'].rstrip('/')}/products/{handle}"
-        available = any(v.get("available") for v in p.get("variants", []))
+        variants = p.get("variants", [])
+        available = any(v.get("available") for v in variants)
+        prices = [float(v["price"]) for v in variants if v.get("price") is not None]
+        price = min(prices) if prices else None
         products.append(
-            {"id": pid, "title": title, "link": link, "available": available}
+            {"id": pid, "title": title, "link": link, "available": available, "price": price}
         )
     return products
 
@@ -123,7 +173,15 @@ def check_html(site):
         if link in seen_links:
             continue
         seen_links.add(link)
-        products.append({"id": link, "title": text, "link": link, "available": True})
+        products.append(
+            {
+                "id": link,
+                "title": text,
+                "link": link,
+                "available": True,
+                "price": extract_price(text),
+            }
+        )
 
     return products
 
@@ -148,12 +206,24 @@ def main():
         new_seen = set(seen_ids)
         for p in products:
             new_seen.add(p["id"])
-            if p["id"] not in seen_ids:
-                status = "IN STOCK" if p.get("available", True) else "LISTED (check stock)"
-                msg = f"\U0001F195 <b>{name}</b>\n{p['title']}\n{status}\n{p['link']}"
-                print(f"New: [{name}] {p['title']}")
-                send_telegram(msg)
-                changed = True
+            if p["id"] in seen_ids:
+                continue
+
+            # Only alert on things actually purchasable right now.
+            if not p.get("available", True):
+                continue
+
+            # Skip anything priced well above a typical UK RRP for its
+            # product type (see PRICE_CEILINGS above).
+            if not price_looks_reasonable(p["title"], p.get("price")):
+                print(f"Skipped (overpriced): [{name}] {p['title']} - £{p.get('price')}")
+                continue
+
+            price_str = f" - £{p['price']:.2f}" if p.get("price") is not None else ""
+            msg = f"\U0001F195 <b>{name}</b>\n{p['title']}{price_str}\nIN STOCK\n{p['link']}"
+            print(f"New: [{name}] {p['title']}{price_str}")
+            send_telegram(msg)
+            changed = True
 
         state[name] = list(new_seen)
 
