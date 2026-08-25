@@ -1,0 +1,38 @@
+name: Pokemon Stock Monitor
+
+on:
+  schedule:
+    # GitHub's minimum schedule granularity is every 5 minutes, and
+    # under load actual runs can be delayed a few minutes further.
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write   # needed so the workflow can commit the updated state file
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run monitor
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python monitor.py
+
+      - name: Save updated state
+        run: |
+          git config user.name "stock-monitor-bot"
+          git config user.email "actions@github.com"
+          git add seen_products.json
+          git diff --staged --quiet || git commit -m "Update seen products"
+          git push
