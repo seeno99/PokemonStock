@@ -114,6 +114,30 @@ def is_foreign_language(text):
     return any(phrase in text_lower for phrase in FOREIGN_LANGUAGE_PHRASES)
 
 
+# Accessories aren't sealed product drops - skip these entirely regardless
+# of stock/price.
+ACCESSORY_PHRASES = [
+    "binder",
+    "sleeve",
+    "deck box",
+    "deckbox",
+    "portfolio",
+    "toploader",
+    "top loader",
+    "card saver",
+    "playmat",
+    "play mat",
+    "storage box",
+    "card case",
+    "card holder",
+]
+
+
+def is_accessory(text):
+    text_lower = text.lower()
+    return any(phrase in text_lower for phrase in ACCESSORY_PHRASES)
+
+
 def extract_price(text):
     """Pulls a plain £ price out of a text blob, if present."""
     match = re.search(r"£\s?(\d+(?:\.\d{1,2})?)", text)
@@ -284,7 +308,15 @@ def main():
 
     for site in sites:
         name = site["name"]
-        seen_ids = set(state.get(name, []))
+        # state[name] is a dict of {product_id: was_available_bool} - this
+        # lets us detect the transition from "not in stock" to "in stock"
+        # every time it happens, not just the very first time we ever see
+        # a product. (Older versions of this script stored a plain list of
+        # seen IDs, which meant a product could only ever trigger one alert,
+        # ever - this dict-based version fixes that.)
+        prev_status = state.get(name, {})
+        if isinstance(prev_status, list):  # migrate old-format state
+            prev_status = {pid: True for pid in prev_status}
 
         if site["type"] == "shopify_json":
             products = check_shopify_json(site)
@@ -294,14 +326,18 @@ def main():
             print(f"[{name}] Unknown site type '{site['type']}', skipping.")
             continue
 
-        new_seen = set(seen_ids)
+        new_status = dict(prev_status)
         for p in products:
-            new_seen.add(p["id"])
-            if p["id"] in seen_ids:
-                continue
+            pid = p["id"]
+            was_available = prev_status.get(pid, False)
+            is_available = bool(p.get("available", True))
+            new_status[pid] = is_available
 
-            # Only alert on things actually purchasable right now.
-            if not p.get("available", True):
+            # Only notify on the moment something becomes available -
+            # i.e. it wasn't in stock last run (or we've never seen it
+            # before) and it IS in stock now. A product that stays in
+            # stock across runs, or stays sold out, won't re-notify.
+            if not is_available or was_available:
                 continue
 
             # Skip pre-orders entirely - only genuinely in-stock,
@@ -313,6 +349,11 @@ def main():
             if is_foreign_language(p["title"]):
                 continue
 
+            # Skip accessories (binders, sleeves, deck boxes, etc.) -
+            # only sealed product drops matter here.
+            if is_accessory(p["title"]):
+                continue
+
             # Skip anything priced well above a typical UK RRP for its
             # product type (see PRICE_CEILINGS above).
             if not price_looks_reasonable(p["title"], p.get("price")):
@@ -321,15 +362,15 @@ def main():
 
             price_str = f" - £{p['price']:.2f}" if p.get("price") is not None else ""
             msg = f"\U0001F195 <b>{name}</b>\n{p['title']}{price_str}\nIN STOCK\n{p['link']}"
-            print(f"New: [{name}] {p['title']}{price_str}")
+            print(f"New/restocked: [{name}] {p['title']}{price_str}")
             send_telegram(msg)
             changed = True
 
-        state[name] = list(new_seen)
+        state[name] = new_status
 
     save_json(STATE_FILE, state)
     if not changed:
-        print("No new products this run.")
+        print("No new/restocked products this run.")
 
 
 if __name__ == "__main__":
