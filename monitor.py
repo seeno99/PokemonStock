@@ -69,6 +69,51 @@ def price_looks_reasonable(title, price):
     return True  # unknown product type - don't filter blind
 
 
+PREORDER_PHRASES = [
+    "pre-order",
+    "preorder",
+    "pre order",
+    "coming soon",
+    "notify me",
+    "notify when available",
+    "backorder",
+    "back order",
+    "expected",
+    "release date",
+]
+
+
+def is_preorder(text):
+    """
+    True if the product looks like a pre-order/upcoming listing rather
+    than something genuinely in stock and ready to ship now. Pre-orders
+    are excluded entirely (not just when 'sold out'), since the goal is
+    only items buyable right now at normal retail price.
+    """
+    text_lower = text.lower()
+    return any(phrase in text_lower for phrase in PREORDER_PHRASES)
+
+
+# Words that indicate a non-English-language print of the product.
+# Only English-language (standard UK/US print) stock is wanted, so
+# anything matching these is skipped entirely regardless of stock/price.
+FOREIGN_LANGUAGE_PHRASES = [
+    "japanese",
+    "japan import",
+    "jp ver",
+    "chinese",
+    "korean",
+    "korea ver",
+    "s-chinese",
+    "t-chinese",
+]
+
+
+def is_foreign_language(text):
+    text_lower = text.lower()
+    return any(phrase in text_lower for phrase in FOREIGN_LANGUAGE_PHRASES)
+
+
 def extract_price(text):
     """Pulls a plain £ price out of a text blob, if present."""
     match = re.search(r"£\s?(\d+(?:\.\d{1,2})?)", text)
@@ -134,10 +179,50 @@ def check_shopify_json(site):
         available = any(v.get("available") for v in variants)
         prices = [float(v["price"]) for v in variants if v.get("price") is not None]
         price = min(prices) if prices else None
+        product_type = (p.get("product_type") or "")
+        preorder = is_preorder(title) or is_preorder(product_type)
         products.append(
-            {"id": pid, "title": title, "link": link, "available": available, "price": price}
+            {
+                "id": pid,
+                "title": title,
+                "link": link,
+                "available": available,
+                "price": price,
+                "preorder": preorder,
+            }
         )
     return products
+
+
+SOLD_OUT_PHRASES = [
+    "sold out",
+    "out of stock",
+    "unavailable",
+    "notify me",
+    "notify when available",
+    "coming soon",
+    "pre-order sold out",
+]
+
+
+def looks_sold_out(anchor):
+    """
+    Heuristic: looks at the anchor tag and its nearby containers for
+    common 'sold out' wording, since generic HTML scraping has no
+    guaranteed way to read a site's real stock status. Not perfect,
+    but catches the common cases (a 'Sold Out' badge/button near the
+    product link) so we don't alert on things that aren't buyable.
+    """
+    node = anchor
+    for _ in range(4):  # walk up a few levels to catch nearby badges/buttons
+        if node is None:
+            break
+        text = node.get_text(" ", strip=True).lower()
+        for phrase in SOLD_OUT_PHRASES:
+            if phrase in text:
+                return True
+        node = node.parent
+    return False
 
 
 def check_html(site):
@@ -149,6 +234,11 @@ def check_html(site):
     bot-protection (common on big UK high-street retailers), may
     return incomplete results or block the request - that's a hard
     technical limit, not something this script tries to work around.
+
+    Stock status here is a best-effort heuristic (see looks_sold_out) -
+    it is NOT as reliable as the real stock data the Shopify sites give
+    us, since we're guessing from page text rather than reading actual
+    inventory data.
     """
     try:
         resp = requests.get(site["url"], headers=HEADERS, timeout=20)
@@ -178,8 +268,9 @@ def check_html(site):
                 "id": link,
                 "title": text,
                 "link": link,
-                "available": True,
+                "available": not looks_sold_out(a),
                 "price": extract_price(text),
+                "preorder": is_preorder(text),
             }
         )
 
@@ -211,6 +302,15 @@ def main():
 
             # Only alert on things actually purchasable right now.
             if not p.get("available", True):
+                continue
+
+            # Skip pre-orders entirely - only genuinely in-stock,
+            # ready-to-ship items count.
+            if p.get("preorder") or is_preorder(p["title"]):
+                continue
+
+            # Skip non-English-language prints (Japanese/Chinese/Korean etc).
+            if is_foreign_language(p["title"]):
                 continue
 
             # Skip anything priced well above a typical UK RRP for its
