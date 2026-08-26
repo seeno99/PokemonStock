@@ -141,5 +141,53 @@
     "url": "https://collect.thegamecollection.net/collections/pokemon",
     "base_url": "https://collect.thegamecollection.net",
     "keyword": "pokemon"
+  },
+  {
+    "name": "Zatu Games",
+    "type": "shopify_json",
+    "url": "https://zatu.com/en-us/collections/trading-card-games-pokemon-tcg",
+    "base_url": "https://zatu.com/en-us"
+  },
+  {
+    "name": "Incom Gaming",
+    "type": "html",
+    "url": "https://www.incomgaming.co.uk/collections/pokemon-tcg",
+    "base_url": "https://www.incomgaming.co.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "Marbell TCG",
+    "type": "html",
+    "url": "https://marbelltcg.com/collections/pokemon",
+    "base_url": "https://marbelltcg.com",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "Stellar Cards",
+    "type": "html",
+    "url": "https://stellarcards.co.uk/collections/pokemon",
+    "base_url": "https://stellarcards.co.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "Argos",
+    "type": "html",
+    "url": "https://www.argos.co.uk/sd/pokemon-tcg/",
+    "base_url": "https://www.argos.co.uk",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "Waterstones",
+    "type": "html",
+    "url": "https://www.waterstones.com/category/entertainment/video-games-online-gaming/pokemon/page/1",
+    "base_url": "https://www.waterstones.com",
+    "keyword": "pokemon"
+  },
+  {
+    "name": "Asda",
+    "type": "html",
+    "url": "https://groceries.asda.com/search/pokemon%20tcg",
+    "base_url": "https://groceries.asda.com",
+    "keyword": "pokemon"
   }
 ]
