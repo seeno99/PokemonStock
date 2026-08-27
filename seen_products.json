@@ -597,7 +597,10 @@
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-30th-celebration-sylveon-ex-tin": false,
     "https://www.chaoscards.co.uk/prod/elite-trainer-boxes-pokemon/pokemon-mega-evolution-delta-reign-elite-trainer-box": false,
     "https://www.chaoscards.co.uk/prod/elite-trainer-boxes-pokemon/pokemon-mega-evolution-pitch-black-elite-trainer-box": false,
-    "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-lumiose-city-mini-tin-random-design": false
+    "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-lumiose-city-mini-tin-random-design": false,
+    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-destined-rivals-booster-pack-10-cards": false,
+    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-prismatic-evolutions-booster-pack-10-cards": false,
+    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-surging-sparks-booster-pack-10-cards": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -654,7 +657,9 @@
     "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/?stock_status=onsale": true,
     "https://tcgshopuk.co.uk/product-category/pokemon/elite-trainer-boxes-uk/": true,
     "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/pokemon-sets/pokemon-twilight-masquerade/": true,
-    "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/ascended-heroes/": true
+    "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/ascended-heroes/": true,
+    "https://tcgshopuk.co.uk/product/pokemon-mega-brave-booster-box/": true,
+    "https://tcgshopuk.co.uk/product/pokemon-mega-evolution-phantasmal-flames/": true
   },
   "PlayTCG": {},
   "Magic Madhouse": {
@@ -1258,7 +1263,8 @@
     "16004783964541": false,
     "16004783899005": false,
     "16004783866237": false,
-    "16004783800701": false
+    "16004783800701": false,
+    "16005165515133": true
   },
   "Titan Cards": {
     "8605574234442": false,
@@ -1877,7 +1883,12 @@
     "https://collect.thegamecollection.net/pages/pokemon-tcg-phantasmal-flames": true,
     "https://collect.thegamecollection.net/products/pokemon-tcg-storm-emeralda-booster-box-jp-m6": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-blooming-waters-premium-collection": false,
-    "https://collect.thegamecollection.net/products/pokemon-tcg-gem-pack-vol-4-chinese-booster-box-cn": false
+    "https://collect.thegamecollection.net/products/pokemon-tcg-gem-pack-vol-4-chinese-booster-box-cn": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-snow-hazard-booster-box-jp-sv2p-1": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-world-championship-decks-2025-jose-cruz-galindo-resendiz": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-world-championship-decks-2025-liao-fu-guan": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-world-championship-decks-2025-riley-mckay": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-palafin-ex-box": false
   },
   "Zatu Games": {
     "15479274799482": true,
