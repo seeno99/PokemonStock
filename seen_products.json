@@ -600,7 +600,8 @@
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-lumiose-city-mini-tin-random-design": false,
     "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-destined-rivals-booster-pack-10-cards": false,
     "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-prismatic-evolutions-booster-pack-10-cards": false,
-    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-surging-sparks-booster-pack-10-cards": false
+    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-surging-sparks-booster-pack-10-cards": false,
+    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-mega-evolution-chaos-rising-booster-bundle": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -1265,7 +1266,7 @@
     "16004783866237": false,
     "16004783800701": false,
     "16005165515133": true,
-    "16005198020989": true,
+    "16005198020989": false,
     "16005244322173": true,
     "16005228429693": true
   },
@@ -1764,7 +1765,13 @@
     "https://travellingman.com/collections/pokemon-tcg/products/pokemon-tcg-league-battle-deck-team-rockets-mewtwo-ex": false,
     "https://travellingman.com/collections/pokemon-tcg/products/pokemon-tcg-mega-evolution-chaos-rising-4-pocket-portfolio": false,
     "https://travellingman.com/collections/pokemon-tcg/products/pokemon-tcg-scarlet-violet-10-destined-rivals-build-battle-box-display-of-10": false,
-    "https://travellingman.com/collections/pokemon-tcg/products/pokemon-tcg-pokeball-tin-2025": false
+    "https://travellingman.com/collections/pokemon-tcg/products/pokemon-tcg-pokeball-tin-2025": false,
+    "https://travellingman.com/collections/pokemon-tcg/products/ultra-pro-pokemon-foil-playmat-mew-mythical": false,
+    "https://travellingman.com/collections/pokemon-tcg/products/ultra-pro-pokemon-9-pocket-portfolio-lillie-and-clefairy": false,
+    "https://travellingman.com/collections/pokemon-tcg/products/ultra-pro-pokemon-4-pocket-portfolio-lillie-and-clefairy": false,
+    "https://travellingman.com/collections/pokemon-tcg/products/ultra-pro-pokemon-playmat-lillie-and-clefairy": false,
+    "https://travellingman.com/collections/pokemon-tcg/products/ultra-pro-pokemon-alcove-flip-deck-box-mega-charizard-y": false,
+    "https://travellingman.com/collections/pokemon-tcg/products/ultra-pro-pokemon-alcove-flip-deck-box-mega-charizard-x": false
   },
   "Dark Sphere": {
     "https://www.darksphere.co.ukp.php?p=157456": true,
@@ -1891,7 +1898,8 @@
     "https://collect.thegamecollection.net/products/pokemon-tcg-world-championship-decks-2025-jose-cruz-galindo-resendiz": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-world-championship-decks-2025-liao-fu-guan": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-world-championship-decks-2025-riley-mckay": false,
-    "https://collect.thegamecollection.net/products/pokemon-tcg-palafin-ex-box": false
+    "https://collect.thegamecollection.net/products/pokemon-tcg-palafin-ex-box": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-chaos-rising-booster-box-36": false
   },
   "Zatu Games": {
     "15479274799482": true,
@@ -1992,7 +2000,8 @@
     "15430274482554": true,
     "15433122840954": true,
     "15667488883066": true,
-    "15479275028858": true
+    "15479275028858": true,
+    "15430402310522": true
   },
   "Incom Gaming": {
     "https://www.incomgaming.co.uk/products/pokemon-tcg-slashing-legends-ex-tin": false,
