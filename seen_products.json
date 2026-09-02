@@ -1896,7 +1896,7 @@
     "https://collect.thegamecollection.net/collections/pokemon": true,
     "https://collect.thegamecollection.net/customer_authentication/login?return_to=%2Fcollections%2Fpokemon&locale=en&ui_hint=full": true,
     "https://collect.thegamecollection.net/collections/pokemon-tcg-japanese-boxes": true,
-    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-ascended-heroes-mega-feraligatr-ex-box": true,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-ascended-heroes-mega-feraligatr-ex-box": false,
     "https://collect.thegamecollection.net/pages/pokemon-tcg-perfect-order": true,
     "https://collect.thegamecollection.net/collections/pokemon?page=2": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-cyber-judge-booster-box-jp-sv5m-1": false,
@@ -1920,7 +1920,8 @@
     "https://collect.thegamecollection.net/customer_authentication/login?return_to=%2Fcollections%2Fpokemon%3Futm_source%3Dfacebook%26utm_medium%3Dcpc%26utm_campaign%3DTGCC%2B-%2BMagic%2BSales%2BProspecting%2B%2528Nov%2B25%2529%26utm_term%3DTGCC%2BMagic%2B-%2BMTG%2BFans%26utm_content%3DTGCC%2BMTG%2BCatalogue%2B%2528Avatar%2529%26utm_id%3D120235670267210041_v2_s04_i97937596&locale=en&ui_hint=full": true,
     "https://collect.thegamecollection.net/products/pokemon-tcg-ultra-pro-2-inch-album-pokemon-charmander": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-mega-start-deck-100-battle-collection-jp": false,
-    "https://collect.thegamecollection.net/products/pokemon-tcg-black-pink-sparkle-marnie-oversized-coin": false
+    "https://collect.thegamecollection.net/products/pokemon-tcg-black-pink-sparkle-marnie-oversized-coin": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-blade-awakened-chinese-slim-booster-box-cn": false
   },
   "Zatu Games": {
     "15479274799482": true,
