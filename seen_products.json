@@ -792,7 +792,9 @@
     "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/pokemon-sets/sword-shield/": true,
     "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/pokemon-sets/sword-shield/pokemon-brilliant-stars/": true,
     "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/pokemon-sets/sword-shield/pokemon-lost-origin/": true,
-    "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/pokemon-sets/sword-shield/pokemon-crown-zenith/": true
+    "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/pokemon-sets/sword-shield/pokemon-crown-zenith/": true,
+    "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/pokemon-sets/sword-shield/pokemon-evolving-skies/": true,
+    "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/pokemon-sets/sword-shield/pokemon-fusion-strike/": true
   },
   "PlayTCG": {},
   "Magic Madhouse": {
@@ -1900,7 +1902,8 @@
     "https://packratt.co.uk/products/pokemon-battle-partners-japanese-booster-pack": false,
     "https://packratt.co.uk/products/pokemon-future-flash-japanese-booster-pack": false,
     "https://packratt.co.uk/products/pokemon-tcg-silver-tempest-booster-pack": false,
-    "https://packratt.co.uk/products/pokemon-tcg-lost-origin-booster-pack": false
+    "https://packratt.co.uk/products/pokemon-tcg-lost-origin-booster-pack": false,
+    "https://packratt.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-booster-bundle": false
   },
   "Wayland Games": {},
   "Firestorm Games": {
