@@ -815,7 +815,8 @@
     "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/pokemon-sets/scarlet-and-violet/surging-sparks/": true,
     "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/pokemon-sets/scarlet-and-violet/pokemon-temporal-forces/": true,
     "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/pokemon-sets/scarlet-and-violet/pokemon-twilight-masquerade/": true,
-    "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/pokemon-sets/scarlet-and-violet/pokemon-white-flare/": true
+    "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/pokemon-sets/scarlet-and-violet/pokemon-white-flare/": true,
+    "https://tcgshopuk.co.uk/product-category/pokemon-cards-uk/pokemon-sets/pokemon-mega-evolutions/pokemon-phantasmal-flames/": true
   },
   "PlayTCG": {},
   "Magic Madhouse": {
@@ -2314,7 +2315,8 @@
     "https://collect.thegamecollection.net/customer_authentication/login?return_to=%2Fcollections%2Fpokemon&locale=en&ui_hint=full\u00aeion_country=GB": true,
     "https://collect.thegamecollection.net/products/pokemon-tcg-scarlet-violet-base-3-pack-blister-dondozo": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-pitch-black-elite-trainer-box": false,
-    "https://collect.thegamecollection.net/products/pokemon-tcg-paradox-rift-sleeved-booster-pack": false
+    "https://collect.thegamecollection.net/products/pokemon-tcg-paradox-rift-sleeved-booster-pack": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-pitch-black-3-pack-blister": false
   },
   "Zatu Games": {
     "15479274799482": true,
