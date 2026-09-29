@@ -3003,8 +3003,8 @@
     "16039711736189": false,
     "16039709344125": false,
     "16039701938557": false,
-    "16033896104317": false,
-    "16033890795901": false,
+    "16033896104317": true,
+    "16033890795901": true,
     "16042325672317": false,
     "16045670465917": false
   },
@@ -3555,7 +3555,7 @@
   "Travelling Man": {
     "https://travellingman.com/collections/pokemon-tcg/products/pokemon-tcg-chinese-gem-pack-badge-set": false,
     "https://travellingman.com/collections/pokemon-tcg/products/pokemon-tcg-mega-evolution-2-phantasmal-flames-prerelease-build-battle-box": false,
-    "https://travellingman.com/collections/pokemon-tcg": true,
+    "https://travellingman.com/collections/pokemon-tcg": false,
     "https://travellingman.com/collections/pokemon-tcg/products/pokemon-tcg-mega-charizard-x-mega-charizard-y-4-pocket-portfolio": false,
     "https://travellingman.com/collections/pokemon-model-kits": true,
     "https://travellingman.com/collections/pokemon-tcg/products/pokemon-tcg-scarlet-violet-8-surging-sparks-prerelease-build-battle-box": false,
