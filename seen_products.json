@@ -2984,7 +2984,7 @@
     "16032364527997": true,
     "16032364233085": true,
     "16032363970941": true,
-    "16032363708797": true,
+    "16032363708797": false,
     "16032363151741": true,
     "16032362496381": true,
     "16032361808253": false,
@@ -3006,7 +3006,7 @@
     "16032355451261": true,
     "16032355123581": false,
     "16032354894205": true,
-    "16032354533757": true,
+    "16032354533757": false,
     "16032354238845": true,
     "16032354042237": true,
     "16039716618621": false,
@@ -3814,7 +3814,12 @@
     "https://collect.thegamecollection.net/products/pokemon-tcg-holiday-calendar-2024": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-stacking-tins-q1-2024-metal": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-stacking-tins-q1-2024-dragon": false,
-    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-pitch-black-booster-box-36": false
+    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-pitch-black-booster-box-36": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-sword-shield-elite-trainer-box-zamazenta-8-packs": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-pokemon-go-elite-trainer-box": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-scarlet-violet-base-booster-pack": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-morpeko-v-union-premium-treasures-collection": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-scarlet-violet-3-5-151-mini-tins-display-no-seal": false
   },
   "Zatu Games": {
     "15479274799482": true,
