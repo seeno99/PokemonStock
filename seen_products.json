@@ -2992,7 +2992,7 @@
     "16032361251197": false,
     "16032360956285": false,
     "16032360726909": false,
-    "16032360497533": false,
+    "16032360497533": true,
     "16032360300925": true,
     "16032360038781": true,
     "16032359776637": true,
@@ -3384,7 +3384,8 @@
     "https://packratt.co.uk/products/pokemon-backpack-characters": false,
     "https://packratt.co.uk/products/pokemon-shopper-bag-eevee": false,
     "https://packratt.co.uk/products/pokemon-loungefly-mini-backpack-legendary-birds": false,
-    "https://packratt.co.uk/products/pokemon-30th-celebration-pikachu-30-card-complete-set-japanese": false
+    "https://packratt.co.uk/products/pokemon-30th-celebration-pikachu-30-card-complete-set-japanese": false,
+    "https://packratt.co.uk/products/pokemon-tcg-30th-celebration-booster-pack": false
   },
   "Wayland Games": {},
   "Firestorm Games": {
