@@ -703,7 +703,8 @@
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-30th-celebration-mini-tin-day-lapras": false,
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-30th-celebration-mini-tin-day-moltres": false,
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-30th-celebration-mini-tin-random-design": false,
-    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-mega-evolution-pitch-black-booster-bundle": false
+    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-mega-evolution-pitch-black-booster-bundle": false,
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-first-partner-illustration-collection-series-1": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -3180,7 +3181,7 @@
     "10216880537930": false,
     "10216960000330": false,
     "15972898079050": true,
-    "15936890667338": false,
+    "15936890667338": true,
     "10216754151754": false,
     "8606602461514": false,
     "10216905867594": true,
