@@ -705,7 +705,9 @@
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-30th-celebration-mini-tin-random-design": false,
     "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-mega-evolution-pitch-black-booster-bundle": false,
     "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-first-partner-illustration-collection-series-1": false,
-    "https://www.chaoscards.co.uk/prod/booster-boxes-pokemon/pokemon-mega-evolution-chaos-rising-booster-box-36-packs": false
+    "https://www.chaoscards.co.uk/prod/booster-boxes-pokemon/pokemon-mega-evolution-chaos-rising-booster-box-36-packs": false,
+    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-shrouded-fable-booster-bundle-6-packs": false,
+    "https://www.chaoscards.co.uk/prod/elite-trainer-boxes-pokemon/pokemon-shrouded-fable-elite-trainer-box": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -2925,11 +2927,11 @@
     "16032342147453": true,
     "16032341918077": true,
     "16032341721469": true,
-    "16032341459325": true,
+    "16032341459325": false,
     "16032341164413": true,
     "16032340967805": true,
     "16032340672893": true,
-    "16032340410749": true,
+    "16032340410749": false,
     "16032340181373": false,
     "16032339951997": true,
     "16032339722621": true,
@@ -4083,7 +4085,17 @@
     "16206975992186": true,
     "15430310003066": true,
     "16206975566202": true,
-    "16120344478074": true
+    "16120344478074": true,
+    "16196500586874": true,
+    "16196500160890": true,
+    "16196500619642": true,
+    "16196500357498": true,
+    "16196500521338": true,
+    "16196500455802": true,
+    "16196500652410": true,
+    "16196500324730": true,
+    "16196500095354": true,
+    "16196500390266": true
   },
   "Incom Gaming": {
     "https://www.incomgaming.co.uk/products/pokemon-tcg-slashing-legends-ex-tin": false,
