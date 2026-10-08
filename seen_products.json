@@ -2739,7 +2739,7 @@
     "16032270483837": false,
     "16032270123389": false,
     "16032269795709": false,
-    "16032269074813": true,
+    "16032269074813": false,
     "16032268779901": false,
     "16032268517757": false,
     "16032268157309": true,
@@ -3833,7 +3833,8 @@
     "https://collect.thegamecollection.net/products/pokemon-tcg-morpeko-v-union-premium-treasures-collection": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-scarlet-violet-3-5-151-mini-tins-display-no-seal": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-silver-tempest-elite-trainer-box-1": false,
-    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-battle-decks-gengar-ex": false
+    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-battle-decks-gengar-ex": false,
+    "https://collect.thegamecollection.net/pages/pokemon-tcg-delta-reign": true
   },
   "Zatu Games": {
     "15479274799482": true,
