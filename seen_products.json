@@ -708,7 +708,8 @@
     "https://www.chaoscards.co.uk/prod/booster-boxes-pokemon/pokemon-mega-evolution-chaos-rising-booster-box-36-packs": false,
     "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-shrouded-fable-booster-bundle-6-packs": false,
     "https://www.chaoscards.co.uk/prod/elite-trainer-boxes-pokemon/pokemon-shrouded-fable-elite-trainer-box": false,
-    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-shrouded-fable-booster-pack-10-cards": false
+    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-shrouded-fable-booster-pack-10-cards": false,
+    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-twilight-masquerade-booster-pack-10-cards": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -2930,7 +2931,7 @@
     "16032341918077": true,
     "16032341721469": true,
     "16032341459325": false,
-    "16032341164413": true,
+    "16032341164413": false,
     "16032340967805": true,
     "16032340672893": false,
     "16032340410749": false,
@@ -3023,14 +3024,18 @@
     "16039711736189": false,
     "16039709344125": false,
     "16039701938557": false,
-    "16033896104317": false,
-    "16033890795901": false,
+    "16033896104317": true,
+    "16033890795901": true,
     "16042325672317": false,
     "16045670465917": false,
     "16065571488125": true,
     "16067245375869": false,
     "16066604269949": true,
-    "16052861993341": true
+    "16052861993341": true,
+    "16067899490685": false,
+    "16067894182269": false,
+    "16067887595901": true,
+    "16067881435517": true
   },
   "Titan Cards": {
     "8605574234442": false,
