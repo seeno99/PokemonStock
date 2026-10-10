@@ -707,7 +707,8 @@
     "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-first-partner-illustration-collection-series-1": false,
     "https://www.chaoscards.co.uk/prod/booster-boxes-pokemon/pokemon-mega-evolution-chaos-rising-booster-box-36-packs": false,
     "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-shrouded-fable-booster-bundle-6-packs": false,
-    "https://www.chaoscards.co.uk/prod/elite-trainer-boxes-pokemon/pokemon-shrouded-fable-elite-trainer-box": false
+    "https://www.chaoscards.co.uk/prod/elite-trainer-boxes-pokemon/pokemon-shrouded-fable-elite-trainer-box": false,
+    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-shrouded-fable-booster-pack-10-cards": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -2879,7 +2880,7 @@
     "16032352272765": true,
     "16032352141693": true,
     "16032351977853": true,
-    "16032351945085": true,
+    "16032351945085": false,
     "16032351846781": true,
     "16032351682941": true,
     "16032351420797": true,
