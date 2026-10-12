@@ -564,7 +564,12 @@
     "8220117270766": false,
     "8220111143150": false,
     "8220109340910": false,
-    "9282165965038": true
+    "9282165965038": true,
+    "9574169673966": false,
+    "9574168494318": false,
+    "9574168461550": false,
+    "9574168428782": false,
+    "9574168396014": false
   },
   "Pokemon Center UK - New Releases": {},
   "Chaos Cards": {
@@ -709,7 +714,16 @@
     "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-shrouded-fable-booster-bundle-6-packs": false,
     "https://www.chaoscards.co.uk/prod/elite-trainer-boxes-pokemon/pokemon-shrouded-fable-elite-trainer-box": false,
     "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-shrouded-fable-booster-pack-10-cards": false,
-    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-twilight-masquerade-booster-pack-10-cards": false
+    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-scarlet-violet-twilight-masquerade-booster-pack-10-cards": false,
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-30th-celebration-ditto-premium-collection": false,
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-30th-celebration-day-ultra-premium-collection": false,
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-30th-celebration-night-ultra-premium-collection": false,
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-30th-celebration-mew-figure-collection": false,
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-30th-celebration-mewtwo-figure-collection": false,
+    "https://www.chaoscards.co.uk/prod/japanese-pokemon/pokemon-nihil-zero-japanese-booster-pack-5-cards": false,
+    "https://www.chaoscards.co.uk/prod/japanese-pokemon/pokemon-nihil-zero-japanese-booster-box-30-packs": false,
+    "https://www.chaoscards.co.uk/prod/japanese-pokemon/pokemon-mega-dream-ex-japanese-booster-pack-10-cards": false,
+    "https://www.chaoscards.co.uk/prod/japanese-pokemon/pokemon-mega-dream-ex-japanese-booster-box-10-packs": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -3003,13 +3017,13 @@
     "16032360497533": false,
     "16032360300925": true,
     "16032360038781": true,
-    "16032359776637": true,
+    "16032359776637": false,
     "16032359448957": false,
     "16032357056893": false,
     "16032356794749": false,
     "16032356368765": false,
     "16032356073853": true,
-    "16032355910013": false,
+    "16032355910013": true,
     "16032355680637": true,
     "16032355451261": true,
     "16032355123581": false,
