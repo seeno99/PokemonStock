@@ -723,7 +723,11 @@
     "https://www.chaoscards.co.uk/prod/japanese-pokemon/pokemon-nihil-zero-japanese-booster-pack-5-cards": false,
     "https://www.chaoscards.co.uk/prod/japanese-pokemon/pokemon-nihil-zero-japanese-booster-box-30-packs": false,
     "https://www.chaoscards.co.uk/prod/japanese-pokemon/pokemon-mega-dream-ex-japanese-booster-pack-10-cards": false,
-    "https://www.chaoscards.co.uk/prod/japanese-pokemon/pokemon-mega-dream-ex-japanese-booster-box-10-packs": false
+    "https://www.chaoscards.co.uk/prod/japanese-pokemon/pokemon-mega-dream-ex-japanese-booster-box-10-packs": false,
+    "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-chaos-rising-premium-checklane-blister-set-of-two": false,
+    "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-phantasmal-flames-3-pack-blister-weavile": false,
+    "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-phantasmal-flames-3-pack-blister-sneasel": false,
+    "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-3-pack-blister-psyduck": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -3049,7 +3053,9 @@
     "16067899490685": false,
     "16067894182269": false,
     "16067887595901": true,
-    "16067881435517": true
+    "16067881435517": true,
+    "16071645036925": true,
+    "16071605354877": true
   },
   "Titan Cards": {
     "8605574234442": false,
