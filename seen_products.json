@@ -731,7 +731,8 @@
     "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-phantasmal-flames-3-pack-blister-weavile": false,
     "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-phantasmal-flames-3-pack-blister-sneasel": false,
     "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-3-pack-blister-psyduck": false,
-    "https://www.chaoscards.co.uk/prod/theme-decks-pokemon/pokemon-deck-crafters-collection": false
+    "https://www.chaoscards.co.uk/prod/theme-decks-pokemon/pokemon-deck-crafters-collection": false,
+    "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-perfect-order-3-pack-blister-chikorita": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -3273,7 +3274,7 @@
     "10216910160202": false,
     "15700751974730": true,
     "10216742453578": false,
-    "15252147962186": false,
+    "15252147962186": true,
     "15252834582858": true,
     "15563998560586": true,
     "15680121209162": true,
