@@ -736,7 +736,8 @@
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-lumiose-city-mini-tins-salamence": false,
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-lumiose-city-mini-tins-meganium": false,
     "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-pitch-black-3-pack-blister-binacle": false,
-    "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-lumiose-city-mini-tins-gallade": false
+    "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-lumiose-city-mini-tins-gallade": false,
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-first-partner-illustration-collection-series-3": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -3265,13 +3266,13 @@
     "10051516596554": true,
     "15219075613002": true,
     "15219135643978": true,
-    "15219123093834": false,
+    "15219123093834": true,
     "10123303911754": true,
     "10216734753098": true,
     "10123365253450": true,
     "15307091542346": true,
     "15412756513098": true,
-    "9623026729290": false,
+    "9623026729290": true,
     "10051540812106": true,
     "10313818145098": true,
     "15343735734602": true,
