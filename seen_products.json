@@ -257,7 +257,7 @@
     "15862241657215": false,
     "15862241526143": false,
     "15915545624959": false,
-    "16028043739519": false,
+    "16028043739519": true,
     "16028286288255": false,
     "16028043542911": false
   },
@@ -737,7 +737,9 @@
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-lumiose-city-mini-tins-meganium": false,
     "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-pitch-black-3-pack-blister-binacle": false,
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-lumiose-city-mini-tins-gallade": false,
-    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-first-partner-illustration-collection-series-3": false
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-first-partner-illustration-collection-series-3": false,
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-mega-evolution-ascended-heroes-premium-poster-collection-mega-gardevoir-ex": false,
+    "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-mega-evolution-ascended-heroes-mini-tin-riolu": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -3085,7 +3087,7 @@
     "16076664635773": false,
     "16076663882109": false,
     "16078204862845": true,
-    "16078204436861": true,
+    "16078204436861": false,
     "16078199685501": false,
     "16078199390589": true,
     "16078235697533": false,
