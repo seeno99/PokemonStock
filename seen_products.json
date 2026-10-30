@@ -741,7 +741,9 @@
     "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-mega-evolution-ascended-heroes-premium-poster-collection-mega-gardevoir-ex": false,
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-mega-evolution-ascended-heroes-mini-tin-riolu": false,
     "https://www.chaoscards.co.uk/prod/japanese-pokemon/pokemon-start-deck-100-battle-collection-japanese-copy": false,
-    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-mega-evolution-ascended-heroes-premium-poster-collection-mega-lucario-ex": false
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-mega-evolution-ascended-heroes-premium-poster-collection-mega-lucario-ex": false,
+    "https://www.chaoscards.co.uk/prod/theme-decks-pokemon/pokemon-30th-celebration-espeon-ex-battle-deck": false,
+    "https://www.chaoscards.co.uk/prod/theme-decks-pokemon/pokemon-30th-celebration-umbreon-ex-battle-deck": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -3148,7 +3150,8 @@
     "16087539876221": true,
     "16087539188093": true,
     "16087538270589": true,
-    "16088486936957": true
+    "16088486936957": true,
+    "16092726722941": true
   },
   "Titan Cards": {
     "8605574234442": false,
@@ -3358,7 +3361,7 @@
     "https://packratt.co.uk/products/pokemon-mega-dream-ex-booster-pack-jp": false,
     "https://packratt.co.uk/products/pokemon-tcg-japanese-ninja-spinner-booster-pack-m4": false,
     "https://packratt.co.uk/products/pokemon-tcg-pikachu-v-promo-swsh198": false,
-    "https://packratt.co.uk/pokemon/english/booster-bundles": true,
+    "https://packratt.co.uk/pokemon/english/booster-bundles": false,
     "https://packratt.co.uk/products/pokemon-tcg-rebel-clash-half-booster-box": false,
     "https://packratt.co.uk/products/pokemon-tcg-fuecoco-promo-svp192": false,
     "https://packratt.co.uk/products/pokemon-night-wanderer-japanese-booster-pack": false,
@@ -3383,7 +3386,7 @@
     "https://packratt.co.uk/products/pokemon-tcg-surging-sparks-elite-trainer-box": false,
     "https://packratt.co.uk/products/pokemon-tcg-reuniclus-promo-svp212": false,
     "https://packratt.co.uk/products/pokemon-tcg-mega-evolution-chaos-rising-booster-box": false,
-    "https://packratt.co.uk/pokemon/english/singles": true,
+    "https://packratt.co.uk/pokemon/english/singles": false,
     "https://packratt.co.uk/products/pokemon-tcg-korean-mega-symphonia-booster-box": false,
     "https://packratt.co.uk/products/pokemon-tcg-temporal-forces-booster-pack": false,
     "https://packratt.co.uk/products/pokemon-nihil-zero-japanese-booster-pack": false,
@@ -3393,14 +3396,14 @@
     "https://packratt.co.uk/products/funism-pokemon-keyring-cubone": false,
     "https://packratt.co.uk/products/pokemon-8-plush-togetic": false,
     "https://packratt.co.uk/products/pokemon-tcg-pecharunt-promo-svp149": false,
-    "https://packratt.co.uk/pokemon/english/plush": true,
+    "https://packratt.co.uk/pokemon/english/plush": false,
     "https://packratt.co.uk/products/pokemon-tcg-151-kanto-starter-cosmos-holo-promo-set-svp046-047-048": false,
     "https://packratt.co.uk/products/pokemon-tcg-simplified-chinese-30th-anniversary-first-partner-set-series-1": false,
     "https://packratt.co.uk/products/pokemon-tcg-mega-evolution-perfect-order-booster-pack": false,
     "https://packratt.co.uk/products/funism-pokemon-keyring-minun": false,
     "https://packratt.co.uk/products/pokemon-tcg-surging-sparks-booster-bundle": false,
     "https://packratt.co.uk/guides/where-to-buy-pokemon-cards-uk": true,
-    "https://packratt.co.uk/pokemon/english/etbs": true,
+    "https://packratt.co.uk/pokemon/english/etbs": false,
     "https://packratt.co.uk/products/pokemon-tcg-mega-evolution-ascended-heroes-elite-trainer-box": false,
     "https://packratt.co.uk/products/pokemon-tcg-simplified-chinese-gem-vol-4-booster-pack": false,
     "https://packratt.co.uk/products/pokemon-ruler-of-the-black-flame-japanese-booster-pack": false,
@@ -3416,7 +3419,7 @@
     "https://packratt.co.uk/products/pokemon-tcg-snivy-tepig-oshawott-holo-set": false,
     "https://packratt.co.uk/products/pokemon-tcg-stellar-crown-booster-pack": false,
     "https://packratt.co.uk/products/pokemon-tcg-obsidian-flames-booster-pack": false,
-    "https://packratt.co.uk/pokemon/english/booster-packs": true,
+    "https://packratt.co.uk/pokemon/english/booster-packs": false,
     "https://packratt.co.uk/products/pokemon-tcg-mega-zygarde-ex-premium-collection": false,
     "https://packratt.co.uk/products/pokemon-tcg-team-rockets-nidoking-ex-promo-sv217": false,
     "https://packratt.co.uk/products/pokemon-tcg-empoleon-holo-037-172": false,
@@ -3433,7 +3436,7 @@
     "https://packratt.co.uk/products/pokemon-mega-dream-ex-booster-box-jp": false,
     "https://packratt.co.uk/products/pokemon-tcg-korean-paradise-dragona-booster-box": false,
     "https://packratt.co.uk/products/pokemon-tcg-team-rockets-persian-ex-promo-sv218": false,
-    "https://packratt.co.uk/pokemon/english/booster-boxes": true,
+    "https://packratt.co.uk/pokemon/english/booster-boxes": false,
     "https://packratt.co.uk/products/pokemon-mega-symphonia-japanese-booster-pack": false,
     "https://packratt.co.uk/products/pokemon-tcg-japanese-art-rare-card-lot-x50": false,
     "https://packratt.co.uk/products/pokemon-tcg-white-flare-booster-pack": false,
@@ -3523,7 +3526,12 @@
     "https://packratt.co.uk/products/pokemon-tcg-30th-celebration-mini-tin": false,
     "https://packratt.co.uk/products/pokemon-white-flare-japanese-booster-pack": false,
     "https://packratt.co.uk/products/pokemon-center-brilliant-stars-elite-trainer-box": false,
-    "https://packratt.co.uk/products/pokemon-star-birth-japanese-booster-pack": false
+    "https://packratt.co.uk/products/pokemon-star-birth-japanese-booster-pack": false,
+    "https://packratt.co.uk/pokemon/english/collections": false,
+    "https://packratt.co.uk/pokemon/english/merch": false,
+    "https://packratt.co.uk/pokemon/english/svp": false,
+    "https://packratt.co.uk/pokemon/english/sv10": false,
+    "https://packratt.co.uk/pokemon/english/swsh": false
   },
   "Wayland Games": {},
   "Firestorm Games": {
