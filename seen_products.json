@@ -3118,7 +3118,7 @@
     "16080979493245": true,
     "16081301569917": false,
     "16085451932029": true,
-    "16085450588541": true,
+    "16085450588541": false,
     "16085449245053": false,
     "16085446918525": true,
     "16085444755837": true,
@@ -3537,7 +3537,9 @@
     "https://packratt.co.uk/pokemon/english/swsh": false,
     "https://packratt.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-booster-bundle": false,
     "https://packratt.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box": false,
-    "https://packratt.co.uk/pokemon/english/sv8": false
+    "https://packratt.co.uk/pokemon/english/sv8": false,
+    "https://packratt.co.uk/pokemon/english/bundles": false,
+    "https://packratt.co.uk/products/pokemon-surging-sparks-booster-bundle-ultra-pro-pikachu-playmat": false
   },
   "Wayland Games": {},
   "Firestorm Games": {
