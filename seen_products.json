@@ -4004,7 +4004,8 @@
     "https://collect.thegamecollection.net/customer_authentication/login?return_to=%2Fcollections%2Fpokemon-tcg&locale=en&ui_hint=full\u00aeion_country=GB": true,
     "https://collect.thegamecollection.net/collections/pokemon-tcg": true,
     "https://collect.thegamecollection.net/collections/pokemon-tcg?sort_by=manual": true,
-    "https://collect.thegamecollection.net/collections/pokemon-tcg?page=2": false
+    "https://collect.thegamecollection.net/collections/pokemon-tcg?page=2": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-chaos-rising-elite-trainer-box": false
   },
   "Zatu Games": {
     "15479274799482": true,
