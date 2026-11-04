@@ -4005,7 +4005,9 @@
     "https://collect.thegamecollection.net/collections/pokemon-tcg": true,
     "https://collect.thegamecollection.net/collections/pokemon-tcg?sort_by=manual": true,
     "https://collect.thegamecollection.net/collections/pokemon-tcg?page=2": false,
-    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-chaos-rising-elite-trainer-box": false
+    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-chaos-rising-elite-trainer-box": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-origin-forme-dialga-vstar-premium-collection": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-origin-forme-palkia-vstar-premium-collection": false
   },
   "Zatu Games": {
     "15479274799482": true,
