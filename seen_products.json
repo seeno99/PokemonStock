@@ -2997,7 +2997,7 @@
     "16032372687229": true,
     "16032372490621": true,
     "16032372130173": true,
-    "16032371802493": true,
+    "16032371802493": false,
     "16032371605885": true,
     "16032371310973": true,
     "16032371016061": true,
@@ -4013,7 +4013,10 @@
     "https://collect.thegamecollection.net/collections/pokemon-tcg?page=2": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-chaos-rising-elite-trainer-box": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-origin-forme-dialga-vstar-premium-collection": false,
-    "https://collect.thegamecollection.net/products/pokemon-tcg-origin-forme-palkia-vstar-premium-collection": false
+    "https://collect.thegamecollection.net/products/pokemon-tcg-origin-forme-palkia-vstar-premium-collection": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-delta-reign-booster-box": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-delta-reign-elite-trainer-box": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-delta-reign-booster-bundle": false
   },
   "Zatu Games": {
     "15479274799482": true,
