@@ -3280,7 +3280,7 @@
     "16101010440573": false,
     "16101010407805": false,
     "16101010375037": false,
-    "16101010342269": true,
+    "16101010342269": false,
     "16101010276733": false,
     "16101010243965": true,
     "16101010145661": true,
@@ -4277,7 +4277,8 @@
     "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-perfect-order-elite-trainer-box": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-first-partner-illustration-collection-series-1": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-shrouded-fable-greninja-ex-special-illustration-collection": false,
-    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-ascended-heroes-collection-erika-larry-assorted-randomly-picked": false
+    "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-ascended-heroes-collection-erika-larry-assorted-randomly-picked": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-temporal-forces-elite-trainer-box-iron-leaves": false
   },
   "Zatu Games": {
     "15479274799482": true,
