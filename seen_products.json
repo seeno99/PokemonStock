@@ -80,7 +80,7 @@
     "15280677192063": false,
     "15596850348415": false,
     "15449451561343": false,
-    "15188387332479": true,
+    "15188387332479": false,
     "15423251251583": false,
     "15092909638015": false,
     "15440714170751": false,
@@ -259,7 +259,10 @@
     "15915545624959": false,
     "16028043739519": true,
     "16028286288255": false,
-    "16028043542911": false
+    "16028043542911": false,
+    "16047650701695": false,
+    "16047650242943": false,
+    "15862241755519": false
   },
   "The Card Vault": {
     "9088090472686": false,
@@ -762,7 +765,9 @@
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-mega-evolution-ascended-heroes-mini-tin-pikachu": false,
     "https://www.chaoscards.co.uk/prod/new-arrivals/pokemon-30th-celebration-figure-collection-set-of-2-mew-mewtwo": false,
     "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-chaos-rising-3-pack-blister-charmeleon": false,
-    "https://www.chaoscards.co.uk/prod/pokemon-30th-celebration-figure-collection-set-of-2-mew-mewtwo": false
+    "https://www.chaoscards.co.uk/prod/pokemon-30th-celebration-figure-collection-set-of-2-mew-mewtwo": false,
+    "https://www.chaoscards.co.uk/prod/elite-trainer-boxes-pokemon/pokemon-mega-evolution-ascended-heroes-elite-trainer-box": false,
+    "https://www.chaoscards.co.uk/prod/theme-decks-pokemon/pokemon-mega-battle-deck-diancie": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -3167,7 +3172,7 @@
     "16085424374141": true,
     "16085423980925": true,
     "16085422145917": true,
-    "16086405054845": false,
+    "16086405054845": true,
     "16087540105597": false,
     "16087539876221": false,
     "16087539188093": true,
@@ -3277,7 +3282,7 @@
     "16101010932093": false,
     "16101010801021": false,
     "16101010669949": true,
-    "16101010604413": true,
+    "16101010604413": false,
     "16101010538877": true,
     "16101010473341": true,
     "16101010440573": false,
@@ -3285,8 +3290,8 @@
     "16101010375037": false,
     "16101010342269": false,
     "16101010276733": false,
-    "16101010243965": true,
-    "16101010145661": true,
+    "16101010243965": false,
+    "16101010145661": false,
     "16101010080125": false,
     "16101010014589": false,
     "16101009981821": true,
