@@ -761,7 +761,8 @@
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-mega-evolution-ascended-heroes-mini-tin-togepi": false,
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-mega-evolution-ascended-heroes-mini-tin-pikachu": false,
     "https://www.chaoscards.co.uk/prod/new-arrivals/pokemon-30th-celebration-figure-collection-set-of-2-mew-mewtwo": false,
-    "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-chaos-rising-3-pack-blister-charmeleon": false
+    "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-chaos-rising-3-pack-blister-charmeleon": false,
+    "https://www.chaoscards.co.uk/prod/pokemon-30th-celebration-figure-collection-set-of-2-mew-mewtwo": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -1042,7 +1043,8 @@
     "https://magicmadhouse.co.uk/pokemon/pokemon-repacks": true,
     "https://magicmadhouse.co.uk/pokemon/pokemon-sets/sv-paradox-rift/": true,
     "https://magicmadhouse.co.uk/pokemon/pokemon-sets/delta-reign": true,
-    "https://magicmadhouse.co.uk/pokemon/pokemon-merch/figures": true
+    "https://magicmadhouse.co.uk/pokemon/pokemon-merch/figures": true,
+    "https://magicmadhouse.co.uk/black-friday/pokemon": true
   },
   "Total Cards": {
     "15999089869181": false,
