@@ -1050,7 +1050,11 @@
     "https://magicmadhouse.co.uk/pokemon/pokemon-sets/sv-paradox-rift/": true,
     "https://magicmadhouse.co.uk/pokemon/pokemon-sets/delta-reign": true,
     "https://magicmadhouse.co.uk/pokemon/pokemon-merch/figures": true,
-    "https://magicmadhouse.co.uk/black-friday/pokemon": true
+    "https://magicmadhouse.co.uk/black-friday/pokemon": true,
+    "https://magicmadhouse.co.uk/pokemon/pokemon-sealed-product/indonesian-products": true,
+    "https://magicmadhouse.co.uk/pokemon/pokemon-repacks/pokemon-booster-repack": true,
+    "https://magicmadhouse.co.uk/pokemon/pokemon-repacks/pokemon-card-repack": true,
+    "https://magicmadhouse.co.uk/pokemon/pokemon-repacks/pokemon-gifting-bundle": true
   },
   "Total Cards": {
     "15999089869181": false,
@@ -3802,7 +3806,9 @@
     "https://packratt.co.uk/pokemon/english/bundles": false,
     "https://packratt.co.uk/products/pokemon-surging-sparks-booster-bundle-ultra-pro-pikachu-playmat": false,
     "https://packratt.co.uk/pokemon/english/asc": false,
-    "https://packratt.co.uk/pokemon/english/sv4pt5": false
+    "https://packratt.co.uk/pokemon/english/sv4pt5": false,
+    "https://packratt.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-booster-pack": false,
+    "https://packratt.co.uk/pokemon/english/me06": false
   },
   "Wayland Games": {},
   "Firestorm Games": {
