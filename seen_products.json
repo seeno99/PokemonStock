@@ -768,7 +768,14 @@
     "https://www.chaoscards.co.uk/prod/pokemon-30th-celebration-figure-collection-set-of-2-mew-mewtwo": false,
     "https://www.chaoscards.co.uk/prod/elite-trainer-boxes-pokemon/pokemon-mega-evolution-ascended-heroes-elite-trainer-box": false,
     "https://www.chaoscards.co.uk/prod/theme-decks-pokemon/pokemon-mega-battle-deck-diancie": false,
-    "https://www.chaoscards.co.uk/blog/everything-you-need-to-know-about-chaos-craft-club": true
+    "https://www.chaoscards.co.uk/blog/everything-you-need-to-know-about-chaos-craft-club": true,
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-day-2027-collection": false,
+    "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-wonderful-waters-mini-tin-dragonair": false,
+    "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-wonderful-waters-mini-tin-slowbro": false,
+    "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-wonderful-waters-mini-tin-amaura": false,
+    "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-wonderful-waters-mini-tin-froakie": false,
+    "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-wonderful-waters-mini-tin-staryu": false,
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-mega-rayquaza-ex-premium-tournament-collection": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -3419,7 +3426,14 @@
     "16101000970621": true,
     "16101000937853": true,
     "16101000905085": true,
-    "16101000872317": true
+    "16101000872317": true,
+    "16111819063677": false,
+    "16111818965373": false,
+    "16111818899837": false,
+    "16111818867069": false,
+    "16111818834301": false,
+    "16111818703229": false,
+    "16111818670461": false
   },
   "Titan Cards": {
     "8605574234442": false,
@@ -4295,7 +4309,8 @@
     "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-ascended-heroes-collection-erika-larry-assorted-randomly-picked": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-temporal-forces-elite-trainer-box-iron-leaves": false,
     "https://collect.thegamecollection.net/products/pokemon-tcg-mega-evolution-delta-reign-premium-checklane-random": false,
-    "https://collect.thegamecollection.net/products/pokemon-tcg-lumiose-city-mini-tins-meganium-meowstic": false
+    "https://collect.thegamecollection.net/products/pokemon-tcg-lumiose-city-mini-tins-meganium-meowstic": false,
+    "https://collect.thegamecollection.net/products/pokemon-tcg-lumiose-city-mini-tins-gallade-goomy": false
   },
   "Zatu Games": {
     "15479274799482": true,
