@@ -775,7 +775,8 @@
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-wonderful-waters-mini-tin-amaura": false,
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-wonderful-waters-mini-tin-froakie": false,
     "https://www.chaoscards.co.uk/prod/gift-tins-pokemon/pokemon-wonderful-waters-mini-tin-staryu": false,
-    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-mega-rayquaza-ex-premium-tournament-collection": false
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-mega-rayquaza-ex-premium-tournament-collection": false,
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-valentines-box": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -3200,7 +3201,7 @@
     "16096830783869": false,
     "16101244797309": false,
     "16101161664893": false,
-    "16101161435517": true,
+    "16101161435517": false,
     "16101161337213": false,
     "16101161206141": true,
     "16101161173373": false,
@@ -3244,7 +3245,7 @@
     "16101153735037": true,
     "16101153505661": true,
     "16101153440125": true,
-    "16101153341821": true,
+    "16101153341821": false,
     "16101153079677": true,
     "16101152850301": true,
     "16101152588157": false,
@@ -3433,7 +3434,9 @@
     "16111818867069": false,
     "16111818834301": false,
     "16111818703229": false,
-    "16111818670461": false
+    "16111818670461": false,
+    "16112053682557": true,
+    "16112050831741": true
   },
   "Titan Cards": {
     "8605574234442": false,
