@@ -778,7 +778,16 @@
     "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-mega-rayquaza-ex-premium-tournament-collection": false,
     "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-valentines-box": false,
     "https://www.chaoscards.co.uk/blog/spend-and-splurge-with-lego-icons-this-christmas": true,
-    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-ascended-heroes-mega-feraligatr-ex-collection-box": false
+    "https://www.chaoscards.co.uk/prod/collection-boxes-pokemon/pokemon-ascended-heroes-mega-feraligatr-ex-collection-box": false,
+    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-mega-evolution-flowing-fists-booster-pack-10-cards": false,
+    "https://www.chaoscards.co.uk/prod/booster-boxes-pokemon/pokemon-mega-evolution-flowing-fists-booster-box-36-packs": false,
+    "https://www.chaoscards.co.uk/prod/booster-packs-pokemon/pokemon-mega-evolution-flowing-fists-booster-bundle": false,
+    "https://www.chaoscards.co.uk/prod/elite-trainer-boxes-pokemon/pokemon-mega-evolution-flowing-fists-elite-trainer-box": false,
+    "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-flowing-fists-3-pack-blister-wimpod": false,
+    "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-flowing-fists-checklane-blister-tynamo": false,
+    "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-flowing-fists-premium-checklane-blister-bastiodon": false,
+    "https://www.chaoscards.co.uk/prod/other-pokemon/pokemon-mega-evolution-flowing-fists-premium-checklane-blister-primarina": false,
+    "https://www.chaoscards.co.uk/prod/theme-decks-pokemon/pokemon-30th-celebration-battle-deck-set-of-2": false
   },
   "Element Games": {},
   "TCGShopUK": {
@@ -3292,7 +3301,7 @@
     "16101011227005": false,
     "16101011161469": false,
     "16101011095933": false,
-    "16101011030397": false,
+    "16101011030397": true,
     "16101010997629": false,
     "16101010932093": false,
     "16101010801021": false,
@@ -3438,7 +3447,16 @@
     "16111818703229": false,
     "16111818670461": false,
     "16112053682557": true,
-    "16112050831741": true
+    "16112050831741": true,
+    "16115333693821": false,
+    "16115328876925": false,
+    "16115318882685": false,
+    "16115303448957": false,
+    "16115291029885": false,
+    "16115274514813": false,
+    "16115243254141": false,
+    "16115221102973": false,
+    "16115210682749": false
   },
   "Titan Cards": {
     "8605574234442": false,
@@ -4783,7 +4801,14 @@
     "15430592823674": true,
     "15430359843194": true,
     "15431447380346": true,
-    "16147384762746": true
+    "16147384762746": true,
+    "15622787105146": true,
+    "15566007828858": true,
+    "16119828906362": true,
+    "16119830511994": true,
+    "16119829070202": true,
+    "16170171007354": true,
+    "16120345100666": true
   },
   "Incom Gaming": {
     "https://www.incomgaming.co.uk/products/pokemon-tcg-slashing-legends-ex-tin": false,
