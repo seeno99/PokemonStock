@@ -3261,13 +3261,13 @@
     "16101153079677": true,
     "16101152850301": true,
     "16101152588157": false,
-    "16101152391549": true,
+    "16101152391549": false,
     "16101152162173": true,
     "16101152031101": true,
     "16101151441277": true,
     "16101151146365": true,
     "16101151113597": true,
-    "16101151048061": true,
+    "16101151048061": false,
     "16101150884221": true,
     "16101150556541": true,
     "16101150392701": true,
@@ -3282,7 +3282,7 @@
     "16101148721533": true,
     "16101148524925": true,
     "16101148393853": false,
-    "16101148131709": true,
+    "16101148131709": false,
     "16101147935101": true,
     "16101147738493": true,
     "16101147574653": true,
@@ -3460,7 +3460,9 @@
     "16115210682749": false,
     "16116774175101": false,
     "16116766343549": false,
-    "16118702276989": true
+    "16118702276989": true,
+    "16119537271165": true,
+    "16119388995965": true
   },
   "Titan Cards": {
     "8605574234442": false,
@@ -3851,7 +3853,8 @@
     "https://packratt.co.uk/products/pokemon-tcg-mega-evolution-delta-reign-booster-pack": false,
     "https://packratt.co.uk/pokemon/english/me06": false,
     "https://packratt.co.uk/products/pokemon-battle-region-japanese-booster-pack": false,
-    "https://packratt.co.uk/products/pokemon-ancient-roar-japanese-booster-pack": false
+    "https://packratt.co.uk/products/pokemon-ancient-roar-japanese-booster-pack": false,
+    "https://packratt.co.uk/pokemon/english/graded": false
   },
   "Wayland Games": {},
   "Firestorm Games": {
